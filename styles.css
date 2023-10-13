@@ -16,6 +16,7 @@
     text-align: left;
 }
 
+
 #logo {
     font-size: 2em; 
     font-family: 'Merriweather', serif;
@@ -290,18 +291,11 @@ p{
     border-radius: 10px;
 }
 .team-col h3{
-    margin-top: 16px;
+    margin-top: 2px;
     margin-bottom: 15px;
     text-align: center;
 }
 
-/*----blog----*/
-.blog{
-    width: 80%;
-    margin: auto;
-    padding-top: 100px;
-    text-align: center;
-}
 
 /*---involve---*/
 .involve{
@@ -326,8 +320,120 @@ p{
     text-align: center;
     padding: 30px 0;
 }
-.footer h{
+.footer h4{
     margin-bottom: 25px;
     margin-top: 20px;
     font-weight: 600;
+}
+
+/*-----teampage---*/
+.subheader{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    color: #ffffff;
+    position: relative;
+}
+#topic{
+    margin-top: 60px;
+    text-align: center;
+}
+
+/*----blogpage----*/
+.subheader1{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bg.png);
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    color: #ffffff;
+    position: relative;
+}
+#topic1{
+    margin-top: 60px;
+    text-align: center;
+}
+.blog{
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.blog-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.blog-col img{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-col h1{
+    padding-top: 0;
+}
+.blog-col p{
+    padding: 15px 0 25px;
+}
+.subheader2 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(lightcover-img.jpg);
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+.text-box1{
+    width: 90%;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute ;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    }
+.text-box1 h1{
+    font-size: 62px;
+    text-align: center;
+}
+
+.involve-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.involve-col h2{
+    margin-top: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.involve-col p{
+    margin-top: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn1:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
